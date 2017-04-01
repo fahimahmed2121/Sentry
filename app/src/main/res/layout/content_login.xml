@@ -46,7 +46,8 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Login as Host"
+        android:onClick="hostLogin"
         android:id="@+id/login_button"
         android:layout_below="@+id/login_password"
         android:layout_alignStart="@+id/login_password"
@@ -55,7 +56,18 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:text="Login as Visitor"
+        android:onClick="visitorLogin"
+        android:id="@+id/login_button2"
+        android:layout_below="@+id/login_password"
+
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:text="New User"
+        android:onClick="newUser"
         android:id="@+id/new_user_button"
         android:layout_alignBottom="@+id/login_button"
         android:layout_alignEnd="@+id/login_password" />
