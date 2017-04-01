@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="com.example.fahim.sentry.Login">
+    tools:context="com.example.fahim.sentry.HostMain">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,27 +20,6 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include
-        android:id="@+id/include2"
-        layout="@layout/content_login" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|right"
-        android:onClick="newUser"
-        android:text="Button"
-        app:layout_anchor="@+id/include2"
-        app:layout_anchorGravity="center_vertical|center_horizontal"
-        tools:text="New User " />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="hostLogin"
-        android:text="Button"
-        tools:text="Login" />
+    <include layout="@layout/content_host_main" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,5 +1,6 @@
 package com.example.fahim.sentry;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -40,5 +41,18 @@ public class Login extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+
+        }
+    /**Called when the user taps "New User" button**/
+    public void newUser(View registrationPage) {
+        //TODO show registration view
+        Intent intent = new Intent(this, Registration.class);
+        startActivity(intent);
+    }
+
+    public void hostLogin(View hostMain) {
+        //TODO show host main page
+        Intent intent = new Intent(this, HostMain.class);
+        startActivity(intent);
     }
 }

@@ -27,6 +27,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fahim.sentry.Login" />
         </activity>
+        <activity
+            android:name=".HostMain"
+            android:label="@string/title_activity_host_main"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
