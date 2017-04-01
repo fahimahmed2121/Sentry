@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fahim.sentry.Registration"
+    tools:showIn="@layout/activity_registration">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/registration_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/registration_password"
+        android:textSize="30dp"
+        android:text="Password"
+        android:password="false"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/registration_name"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/registration_email"
+        android:textSize="30dp"
+        android:text="E-mail"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/registration_password"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/registration_phone"
+        android:textSize="30dp"
+        android:text="Phone"
+        android:phoneNumber="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/registration_address"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/registration_address"
+        android:textSize="30dp"
+        android:text="Address"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/registration_email"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/registraion_button"
+        android:layout_below="@+id/registration_phone"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
