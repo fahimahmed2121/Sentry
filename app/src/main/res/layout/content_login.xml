@@ -40,7 +40,7 @@
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/empty_profile_img"
+        android:src="@drawable/empty_profile_image"
         />
 
     <Button
