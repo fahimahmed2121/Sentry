@@ -3,12 +3,30 @@
 
     <item
         is-multidex="true"
+        jar="/home/jlopez/AndroidStudioProjects/SentryOrigin/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44803dfb5ef8517d66c9f238f3804fcc310363a1">
+        <dex dex="/home/jlopez/AndroidStudioProjects/SentryOrigin/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c4351a1f6470b6418b0cbb263d680e08d94d0eb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/jlopez/AndroidStudioProjects/Sentry/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/home/jlopez/AndroidStudioProjects/Sentry/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_aa4a2c9ba5b22ab47ae4723c36e817a7682e8582/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jlopez/AndroidStudioProjects/SentryOrigin/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/jlopez/AndroidStudioProjects/SentryOrigin/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_03027d936d9bcdcf180132a928a70430312c77b4/classes.dex" />
     </item>
     <item
         is-multidex="true"
