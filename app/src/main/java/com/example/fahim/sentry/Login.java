@@ -56,5 +56,11 @@ public class Login extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void guestLogin(View guestPage) {
+        //TODO show host main page
+        Intent intent = new Intent(this, guestPage.class);
+        startActivity(intent);
+    }
+
 
 }

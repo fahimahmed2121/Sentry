@@ -40,7 +40,12 @@
             android:name=".RegisterVisitor"
             android:label="@string/title_activity_register_visitor"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Verified"></activity>
+        <activity android:name=".Verified">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fahim.sentry.HostMain" />
+        </activity>
+        <activity android:name=".guestPage"></activity>
     </application>
 
 </manifest>
