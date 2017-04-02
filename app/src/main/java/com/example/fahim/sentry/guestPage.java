@@ -14,7 +14,7 @@ public class guestPage extends AppCompatActivity {
     }
 
     public void toTenantDirectory(View tenantDirectory) {
-        Intent intent = new Intent(this, tenantDirectory);
+        Intent intent = new Intent(this, tenantDirectory.class);
         startActivity(intent);
     }
 }

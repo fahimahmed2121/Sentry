@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="44803dfb5ef8517d66c9f238f3804fcc310363a1">
+        sha1="a1de07a8a4d18f29a33444283a02a8382818dce3">
         <dex dex="/home/jlopez/AndroidStudioProjects/SentryOrigin/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c4351a1f6470b6418b0cbb263d680e08d94d0eb1/classes.dex" />
     </item>
     <item
