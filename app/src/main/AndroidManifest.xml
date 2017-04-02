@@ -45,7 +45,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fahim.sentry.HostMain" />
         </activity>
-        <activity android:name=".guestPage"></activity>
+        <activity android:name=".guestPage" />
+        <activity android:name=".CheckOut" />
+        <activity android:name=".BuildingManager"></activity>
     </application>
 
 </manifest>

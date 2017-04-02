@@ -95,6 +95,22 @@ public class HostMain extends AppCompatActivity
         Intent intent = new Intent(this, RegisterVisitor.class);
         startActivity(intent);
     }
+    public void verified(View Verified) {
+        //TODO show host main page
+        Intent intent = new Intent(this, Verified.class);
+        startActivity(intent);
+    }
 
+    public void checkOut(View CheckOut) {
+        //TODO show host main page
+        Intent intent = new Intent(this, CheckOut.class);
+        startActivity(intent);
+    }
+
+    public void building(View BuildingManager) {
+        //TODO show host main page
+        Intent intent = new Intent(this, BuildingManager.class);
+        startActivity(intent);
+    }
 }
 
