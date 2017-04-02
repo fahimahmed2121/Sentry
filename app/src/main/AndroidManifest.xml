@@ -47,7 +47,8 @@
         </activity>
         <activity android:name=".guestPage" />
         <activity android:name=".CheckOut" />
-        <activity android:name=".BuildingManager"></activity>
+        <activity android:name=".BuildingManager" />
+        <activity android:name=".guestDirectory"></activity>
     </application>
 
 </manifest>

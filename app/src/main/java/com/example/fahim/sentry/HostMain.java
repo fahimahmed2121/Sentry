@@ -90,6 +90,10 @@ public class HostMain extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    public void viewGuestDirectory(View guestDirectory){
+        Intent intent = new Intent(this, guestDirectory.class);
+        startActivity(intent);
+    }
     public void regVisitor(View RegisterVisitor) {
         //TODO show host main page
         Intent intent = new Intent(this, RegisterVisitor.class);

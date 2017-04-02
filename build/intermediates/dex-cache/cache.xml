@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/jlopez/AndroidStudioProjects/Sentry/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/jlopez/AndroidStudioProjects/Sentry/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_aa4a2c9ba5b22ab47ae4723c36e817a7682e8582/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jlopez/AndroidStudioProjects/Sentry/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="56f96eef22267b7e18d33557f76f3d52f38029ca">
+        <dex dex="/home/jlopez/AndroidStudioProjects/Sentry/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7055116863323bdb93593c60f620199e64dd6f8a/classes.dex" />
+    </item>
+
+</items>
