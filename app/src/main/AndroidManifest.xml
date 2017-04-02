@@ -39,7 +39,8 @@
         <activity
             android:name=".RegisterVisitor"
             android:label="@string/title_activity_register_visitor"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Verified"></activity>
     </application>
 
 </manifest>
