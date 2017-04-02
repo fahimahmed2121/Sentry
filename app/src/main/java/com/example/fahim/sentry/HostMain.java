@@ -17,7 +17,7 @@ import android.view.MenuItem;
 public class HostMain extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-
+    int x;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -108,7 +108,11 @@ public class HostMain extends AppCompatActivity
     }
 
     public void building(View BuildingManager) {
-        //TODO show host main page
+        if (x==1){
+            Intent intent = new Intent(this, BuildingManager2.class);
+            startActivity(intent);
+            x = 0;
+        }
         Intent intent = new Intent(this, BuildingManager.class);
         startActivity(intent);
     }

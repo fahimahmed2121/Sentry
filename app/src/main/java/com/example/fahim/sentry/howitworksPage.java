@@ -5,17 +5,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class BuildingManager extends AppCompatActivity {
+public class howitworksPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_building_manager);
+        setContentView(R.layout.activity_howitworks_page);
     }
-    public void specialHostLogin(View HostLogin) {
+    public void login(View Login) {
         //TODO show host main page
-        int x = 1;
-        Intent intent = new Intent(this, HostMain.class);
+        Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
 }

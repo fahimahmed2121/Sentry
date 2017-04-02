@@ -49,9 +49,9 @@
         android:text="Login"
         android:onClick="hostLogin"
         android:id="@+id/login_button"
+        android:layout_marginTop="33dp"
         android:layout_below="@+id/login_password"
-        android:layout_alignStart="@+id/login_password"
-        android:layout_marginTop="32dp" />
+        android:layout_alignParentStart="true" />
 
 
 
@@ -61,8 +61,9 @@
         android:text="Register"
         android:onClick="newUser"
         android:id="@+id/new_user_button"
+        android:layout_alignBaseline="@+id/login_button"
         android:layout_alignBottom="@+id/login_button"
-        android:layout_alignEnd="@+id/login_password" />
+        android:layout_alignStart="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
@@ -70,9 +71,9 @@
         android:layout_height="wrap_content"
         android:text="Sign in as Guest"
         android:onClick="guestLogin"
+        android:layout_marginTop="15dp"
         android:layout_below="@+id/new_user_button"
-        android:layout_alignStart="@+id/new_user_button"
-        android:layout_marginTop="14dp" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:id="@+id/button5"
@@ -83,7 +84,8 @@
         android:layout_alignEnd="@+id/login_button"
         android:layout_alignParentStart="true"
         android:text="How it works"
-        android:onClick="aboutUs"
+
+        android:onClick="how"
         />
 
 </RelativeLayout>
