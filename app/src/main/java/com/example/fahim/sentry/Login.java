@@ -56,9 +56,5 @@ public class Login extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void visitorLogin(View visitorMain) {
-        //TODO show host main page
-        Intent intent = new Intent(this, VisitorMain.class);
-        startActivity(intent);
-    }
+
 }

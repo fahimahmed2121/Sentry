@@ -36,7 +36,6 @@
             android:name=".HostMain"
             android:label="@string/title_activity_host_main"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".VisitorMain" />
         <activity
             android:name=".RegisterVisitor"
             android:label="@string/title_activity_register_visitor"

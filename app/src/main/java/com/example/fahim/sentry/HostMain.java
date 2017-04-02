@@ -17,6 +17,7 @@ import android.view.MenuItem;
 public class HostMain extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +88,8 @@ public class HostMain extends AppCompatActivity
 
         }
 
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -96,5 +99,6 @@ public class HostMain extends AppCompatActivity
         Intent intent = new Intent(this, RegisterVisitor.class);
         startActivity(intent);
     }
+
 }
 
