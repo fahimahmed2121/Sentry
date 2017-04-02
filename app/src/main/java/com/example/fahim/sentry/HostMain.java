@@ -24,12 +24,6 @@ public class HostMain extends AppCompatActivity
         setContentView(R.layout.activity_host_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
-
-
-
-
     }
 
     @Override
@@ -115,6 +109,10 @@ public class HostMain extends AppCompatActivity
         //TODO show host main page
         Intent intent = new Intent(this, BuildingManager.class);
         startActivity(intent);
+    }
+
+    public void checkIn(View CheckIn){
+        // TODO get access to building lock
     }
 }
 
