@@ -44,6 +44,7 @@
         android:layout_width="199dp"
         android:layout_height="86dp"
         android:text="Check in"
+        android:onClick="checkOut"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
