@@ -19,7 +19,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="57dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.036" />
@@ -33,7 +33,7 @@
         android:textSize="24dp"
         android:text="Last name"
 
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintTop_toBottomOf="@+id/v_fname"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -55,9 +55,62 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.096"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:onClick="hostLogin"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <CheckBox
+        android:id="@+id/AlwaysAllow"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Require Photo Verification"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintVertical_bias="0.026"
+        app:layout_constraintTop_toBottomOf="@+id/v_phonenumber" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="353dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="If a visitor is registered they do not need confirmation to enter the building unless you specify otherwise."
+        app:layout_constraintBottom_toTopOf="@+id/v_fname"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+
+
+
 
 </android.support.constraint.ConstraintLayout>
